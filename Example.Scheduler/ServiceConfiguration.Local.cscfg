@@ -13,6 +13,7 @@
 		<Setting name="slackWebhookURL" value="https://YOU_NEED_YOUR_OWN_SLACK_WEBHOOK_URL_FOR_THIS_TO_WORK" />
 	 </ConfigurationSettings>
     <Certificates>
+		<!-- this thumbnail is totally bogus.. you need a valid certificate file.-->
       <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF" thumbprintAlgorithm="sha1" />
     </Certificates>
   </Role>
