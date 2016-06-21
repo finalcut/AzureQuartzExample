@@ -8,6 +8,7 @@
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
       <Setting name="apiBaseUrl" />
-    </ConfigurationSettings>
+		<Setting name="slackWebhookURL" />
+	 </ConfigurationSettings>
   </WorkerRole>
 </ServiceDefinition>
