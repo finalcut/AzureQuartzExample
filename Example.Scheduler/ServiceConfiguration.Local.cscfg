@@ -10,7 +10,8 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2024-04-01T23:59:59.0000000-04:00" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
       <Setting name="apiBaseUrl" value="http://localhost:9000/api/v1/jobs/" />
-    </ConfigurationSettings>
+		<Setting name="slackWebhookURL" value="https://YOU_NEED_YOUR_OWN_SLACK_WEBHOOK_URL_FOR_THIS_TO_WORK" />
+	 </ConfigurationSettings>
     <Certificates>
       <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF" thumbprintAlgorithm="sha1" />
     </Certificates>
